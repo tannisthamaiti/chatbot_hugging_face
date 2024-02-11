@@ -19,10 +19,8 @@ from agents.schemas import ChatAgentResponse
 
 
 
-# Function to load pickle file
+# Function to load huggingface api
 gpt_new= GPT()
-
-
 
 
 @app.post('/predict_agent')
